@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+main {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(148, 148, 231);
+    border-top: 80px solid rgb(78, 9, 9);
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+.col:nth-child(1){
+    width: 25%;
+    background-image: url(https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/5fdb5c275bafe84538c58d95/1-puesta-de-sol_1.jpg);
+    background-position: center;
+    background-size: auto 100%;
+    height: 50vh;
+    margin: 20px;
+    border-radius: 15px 15px 0px 0px;
+
+}
+.col:nth-child(2){
+    width: 25%;
+    background-image: url(https://okdiario.com/img/2019/10/22/atardeceres-mas-bonitos-del-mundo.jpg);
+    background-position: center;
+    background-size: auto 100%;
+    height: 50vh;
+    margin: 20px;
+    border-radius: 15px 15px 0px 0px;
+}
+.col:nth-child(3){
+    width: 25%;
+    background-image: url(https://aws.admagazine.com/prod/designs/v1/assets/767x384/64213.jpg);
+    background-position: center;
+    background-size: auto 100%;
+    height: 50vh;
+    margin: 20px;
+    border-radius: 15px 15px 0px 0px;
+}
+ .col h2{
+     background-color: rgba(110, 110, 165, 0.301);
+     color: rgba(8, 1, 4, 0.938);
+     font-size: 1.7rem;
+     font-family: 'Times New Roman', Times, serif;
+     text-align: center;
+ }
+ .col button{
+     width: 100%;
+     border:none;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 1.7rem;
+     padding: 10%;
+     padding-bottom: 10px;
+     margin-top: 230px;
+ }
+ .col button:hover{
+     background-color: rgba(32, 80, 76, 0.801);
+     color: darkred;
+     cursor: pointer;
+ }
